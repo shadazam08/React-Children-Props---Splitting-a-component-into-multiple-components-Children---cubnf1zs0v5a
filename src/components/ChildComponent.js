@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const ChildComponent = (props) => {
-
-//code here
+  //code here
   return (
     <div id="child">
-      Find The Square <br/>
-    {props.children}
+      Find The Square <br />
+      {props.children}
     </div>
-  )
-}
+  );
+};
+
+export default ChildComponent;
